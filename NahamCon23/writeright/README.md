@@ -80,7 +80,7 @@ HLT
 
 Concatenating all the values that are being stored in memory yields the flag.
 ```python
-store = [ 'cf', '73',  '3a', 'c4', 'f3', 'f4', '81', '90', '36', '07', 'a1', 'b4', '70' ]
+store = [ 'cf', '73',  '3a', 'c4', 'f3', 'f4', '81', '90', '20', '4a', '90', '36', '07', 'a1', 'b4', '70' ]
 flag = "".join(store).lower()
 print("flag{" + flag + "}")
 ```
