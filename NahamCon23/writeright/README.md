@@ -7,7 +7,7 @@ g++ -o vesp1_1 main.cpp
 ```
 
 I manually translated the opcodes in the `writeright.vsp` file into mnemonics. 
-This architecure has 16bit opcodes. The weired thing about them is that it identifies the instruction using only the first nibble (most significant), and the rest three are either ignored or alter the behaviour in some way.
+This architecure has 16bit opcodes. The weird thing about them is that it identifies the instruction using only the first nibble (most significant), and the rest three are either ignored or alter the behaviour in some way.
 ```
 LDA A 0000
 LDA B 0000
