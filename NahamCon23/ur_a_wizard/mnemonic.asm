@@ -1,0 +1,29 @@
+2000 0000   LDA A        0000
+2001 0000   LDA B        0000
+2010 0000   LDA [010]    0000
+2000 0000   LDA A        0000
+2001 0001   LDA B        0001
+2010 0000   LDA [010]    0000
+0DA3        ADD
+1000        CMP
+07BC        ADD
+2001 0001   LDA B        0001
+05F0        ADD
+0D31        ADD
+1000        CMP
+098B        ADD
+2001 0001   LDA B        0001
+0ACC        ADD
+0601        ADD
+1000        CMP
+0C3F        ADD
+2001 0001   LDA B        0001
+087C        ADD
+0C24        ADD
+1000        CMP
+0056        ADD
+2001 0001   LDA B        0001
+2010 000A   LDA [010]    000A
+2000 0001   LDA A        0001
+3001 0010   MOV [010] A
+7000        HLT
