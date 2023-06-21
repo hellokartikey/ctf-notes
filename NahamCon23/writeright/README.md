@@ -1,4 +1,4 @@
-# ur_a_wizard
+# writeright
 
 Setting up the emulator
 ```bash
